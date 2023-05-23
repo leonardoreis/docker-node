@@ -1,0 +1,20 @@
+{
+    "AddUser": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "password": { "type": "string"}
+      },
+      "required": ["name", "email", "age"]
+    },
+    "schema2": {
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "password": { "type": "string", "minLength": 8 }
+      },
+      "required": ["username", "password"]
+    }
+  }
+  
